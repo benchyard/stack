@@ -20,7 +20,7 @@ development server to the internet.
 
 ```bash
 kubectl --context "$SKHERI_CONTEXT" -n skheri-demo exec deploy/demo -- \
-  sed -i 's/Preview before commit./Reviewed from the cloud./g' /workspace/app/index.html
+  sed -i 's/Preview before commit[.]/Reviewed from the cloud./g' /workspace/app/index.html
 ```
 
 The running Vite server reads the changed file and updates the browser. A new image
