@@ -1,0 +1,26 @@
+site_name: Benchyard Stack
+site_description: A composable workflow for people, coding agents, cloud environments and evidence.
+site_url: https://benchyard.github.io/stack/
+repo_url: https://github.com/benchyard/stack
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+    accent: teal
+  features:
+    - navigation.sections
+    - content.code.copy
+nav:
+  - Overview: index.md
+  - Architecture: architecture.md
+  - Working example: use-case.md
+  - Choosing components: comparison.md
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
