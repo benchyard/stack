@@ -9,7 +9,7 @@ use the pieces you need, keep your existing tools where they fit.
 
 | Product | Job | Start here |
 |---|---|---|
-| **Benchyard Console** | Shared tasks, documents, reviews and agent execution | [Console](https://github.com/benchyard/benchyard-console) |
+| **Benchyard Console** | Shared tasks, documents, reviews and agent execution | [Console](https://hero.benchyard.com/) |
 | **Acahti** | Self-hosted Git, CI checks, package identity and MCP | [Acahti](https://github.com/lpythu/acahti) |
 | **Acahti Plugin** | Cursor and Codex connection guidance | [Plugin](https://github.com/lpythu/acahti-plugin) |
 | **Skheri** | Persistent development workspaces, live preview and application releases | [Skheri](https://github.com/benchyard/skheri) |
