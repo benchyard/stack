@@ -4,6 +4,8 @@ site_url: https://benchyard.github.io/stack/
 repo_url: https://github.com/benchyard/stack
 theme:
   name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
   palette:
     scheme: slate
     primary: teal
